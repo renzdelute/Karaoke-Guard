@@ -1,0 +1,250 @@
+body {
+    background-color: rgba(76, 72, 72, 1);
+}
+.top {
+    background-color: rgb(50, 47, 47);
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+/* .box {
+    width: 150px;
+    height: 100px;
+    font-size: 5em;
+    border-radius: 15px;
+}    */
+#box1 {
+    background-color: rgb(50, 47, 47);
+    color: #fff;
+    margin-left: 8px;
+    width: 400px;
+    height: 100px;
+    font-size: 2em;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+}
+#box2 {
+    background-color: rgb(50, 47, 47);
+    height: 100px;
+    width: 60px;
+    align-content: center;
+    
+}
+
+#name {
+    /* margin-left: px;
+    margin-right: 80px; */
+    width: 220px;
+    font-size: 15px;
+}
+
+#name input {
+    width: 150px;
+}
+
+#pic {
+    width: 300px;
+    font-size: 15px;
+}
+
+#addKara {
+    position: absolute;
+    left: 20px; /* Adjust this value to move it left/right */
+    width: 200px;
+    text-align: center;
+}
+
+
+.nav {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.nbox {
+    font-size: 21px;
+    font-style: Times;
+    color: #fff;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+}
+
+.mid {
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.a:visited {
+    color: #fff;
+}
+
+.login-container {
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgb(50, 47, 47);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+}
+  
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.login-container input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+  
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #4a8759;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* ubos han form ha karaoke sdasdasdasdsadasdsadasdsadsadsadasdsadsadsasasdasd */
+
+
+  .karaoke-list {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    /* padding: 0 20px; */
+}
+
+.karaoke-item {
+    display: flex;
+    align-items: center;
+    background-color: rgb(60, 57, 57);
+    padding: 10px;
+    border: 1px solid #333;
+    /* border-radius: 10px; */
+    color: white;
+
+}
+
+.karaoke-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.karaoke-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.karaoke-info h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.karaoke-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.karaoke-buttons .btn {
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.karaoke-buttons .btn.update {
+    background-color: #3498db;
+    color: white;
+}
+
+.karaoke-buttons .btn.delete {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.karaoke-buttons .btn:hover {
+    opacity: 0.8;
+}
+/* asdasdas dasesdasdwaewasdwasedwqeqwdasdwqedwaewqewqe */
+
+.update-container {
+    background-color: rgb(60, 57, 57);
+    padding: 20px;
+    margin: 30px auto;
+    width: 400px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #222;
+}
+
+.update-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.update-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-container label {
+    margin: 10px 0 5px;
+}
+
+.update-container input[type="text"],
+.update-container input[type="file"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.update-container button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-container .cancel-btn {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #aaa;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* asdasdfasdfasdf dsaf asdf ads fadsf sadf sda asd fdsa  */
+
+
+/* sasad asd asd asdsad sad sa dsa sa das dsa */
+
